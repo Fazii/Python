@@ -1,0 +1,44 @@
+3.1
+
+x = 2 ; y = 3 ;
+if (x > y):
+    result = x;
+else:
+    result = y;
+
+Ten kod jest poprawny sk³adniowo.
+
+
+for i in "qwerty": if ord(i) < 100: print i
+
+Ten kod nie jest poprawny sk³adniowo
+SyntaxError: invalid syntax
+
+
+for i in "axby": print(ord(i) if ord(i) < 100 else i)
+
+Ten kod jest poprawny sk³adniowo w Pythonie 2, lecz nie jest poprawny w Pythonie 3 z powodu braku nawiasów w funkcji print()
+
+3.2
+
+1) L = L.sort()
+Funkcja sort() sortuje jedynie tablice, a nie zwraca zadnej wartoœci, wiêc taki przypisanie nie ma sensu
+
+2) x, y = 1, 2, 3
+Takie przypisanie jest b³êdne poniewa¿ po lewej stronie mamy dwie zmienne, a po prawej trzy wartosæi, wiêc ostatnia wartoœæ nie mo¿e zostaæ przypisana
+
+3) X = 1, 2, 3 ; X[1] = 4
+Pierwsza instrukcja przypisuje do X tuple, a poniewa¿ tupla jest niezmienna nie mo¿emy zmieniæ jej wartosæi drug¹ instrukcj¹
+
+4) X = "abc" ; X.append("d")
+Pierwasz instukcja przypisuje do X stringa, druga instrukcja jest b³êdna, poniewa¿ String nie ma metody append()
+
+5) map(pow, range(8))
+Funkcja map() nie obs³uguje funkcji, ktore przyjmuj¹ wiêcej ni¿ jeden parametr. Taka sytuacja jest w przypadku funkcji pow()
+
+
+
+
+
+
+
