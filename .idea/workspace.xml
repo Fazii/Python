@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95377550-c989-4733-8fdc-6505f51c21e4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projekt/Wypożyczalnia filmów z bazą danych MySQL.docx" afterPath="$PROJECT_DIR$/projekt/Wypożyczalnia filmów z bazą danych MySQL.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projekt/dbapp.py" afterPath="$PROJECT_DIR$/projekt/dbapp.py" />
     </list>
     <ignored path="Python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,6 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$zadania2.coverage" NAME="zadania2 Coverage Results" MODIFIED="1477304911057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$dbapp.coverage" NAME="dbapp Coverage Results" MODIFIED="1485524820563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projekt" />
     <SUITE FILE_PATH="coverage/Python$db.coverage" NAME="db Coverage Results" MODIFIED="1477495698322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$HeapSort.coverage" NAME="HeapSort Coverage Results" MODIFIED="1483467074758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadania11" />
     <SUITE FILE_PATH="coverage/Python$zad_11_1.coverage" NAME="zad 11.1 Coverage Results" MODIFIED="1483467041603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zadania11" />
@@ -30,22 +33,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="zad 11.1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zadania11/zad 11.1.py">
+      <file leaf-file-name="dbapp.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projekt/dbapp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeapSort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zadania11/HeapSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="266">
+              <caret line="304" column="39" lean-forward="true" selection-start-line="304" selection-start-column="39" selection-end-line="304" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+                <marker date="1485524966372" expanded="true" signature="2181:2445" ph="INSERT INTO wypozyczajacy... " />
+                <marker date="1485524966372" expanded="true" signature="2865:3325" ph="SELECT wypoz... wypozyczajacy" />
+                <marker date="1485524966372" expanded="true" signature="3517:3760" ph="INSERT INTO filmy... " />
+                <marker date="1485524966372" expanded="true" signature="4150:4346" ph="INSERT INTO rejestr_wypozyczen... " />
+                <marker date="1485524966372" expanded="true" signature="4857:4899" ph="DELETE FROM " />
+                <marker date="1485524966372" expanded="true" signature="5668:5711" ph="DELETE FROM " />
+                <marker date="1485524966372" expanded="true" signature="6330:6386" ph="INSERT INTO egzemplarze... " />
+                <marker date="1485524966372" expanded="true" signature="6577:6616" ph="INSERT INTO aktorzy... " />
+                <marker date="1485524966372" expanded="true" signature="6797:6846" ph="INSERT INTO rezyserzy... " />
+                <marker date="1485524966372" expanded="true" signature="7029:7076" ph="INSERT INTO gatunki... " />
+                <marker date="1485524966372" expanded="true" signature="7263:7314" ph="INSERT INTO kategorie... " />
+                <marker date="1485524966372" expanded="true" signature="7499:7545" ph="INSERT INTO nosniki... " />
+                <marker date="1485524966372" expanded="true" signature="7734:7785" ph="INSERT INTO produkcje... " />
+                <marker date="1485524966372" expanded="true" signature="7995:8059" ph="INSERT INTO film_aktorzy... " />
+                <marker date="1485524966372" expanded="true" signature="8264:8453" ph="SELECT aktor... filmy" />
+                <marker date="1485524966372" expanded="true" signature="8659:9233" ph="SELECT filmy... filmy" />
+                <marker date="1485524966372" expanded="true" signature="9479:9663" ph="SELECT egzem... egzemplarze" />
+                <marker date="1485524966372" expanded="true" signature="9886:10058" ph="SELECT egzem... egzemplarze" />
+                <marker date="1485524966372" expanded="true" signature="10239:10278" ph="DELETE FROM " />
+                <marker date="1485524966372" expanded="true" signature="10728:10779" ph="DELETE FROM " />
+                <marker date="1485524966372" expanded="true" signature="11226:11288" ph="DELETE FROM " />
+                <marker date="1485524966372" expanded="true" signature="11755:11799" ph="SELECT * FRO... rejestr_wypozyczen" />
+                <marker date="1485524966372" expanded="true" signature="11997:12042" ph="SELECT * FRO... archiwum_wypozyczen" />
+                <marker date="1485524966372" expanded="true" signature="12230:12319" ph="UPDATE wypoz... " />
+                <marker date="1485524966372" expanded="true" signature="12521:12610" ph="UPDATE wypoz... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +89,7 @@
         <option value="$PROJECT_DIR$/zadania2.py" />
         <option value="$PROJECT_DIR$/zadania3.py" />
         <option value="$PROJECT_DIR$/db.py" />
+        <option value="$PROJECT_DIR$/projekt/dbapp.py" />
       </list>
     </option>
   </component>
@@ -79,7 +100,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="-8" />
     <option name="width" value="1924" />
     <option name="height" value="1056" />
   </component>
@@ -99,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -112,8 +132,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -123,26 +158,10 @@
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.HeapSort">
-    <configuration default="false" name="zadania2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zadania2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.dbapp">
     <configuration default="false" name="zadania3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,6 +230,24 @@
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zadania11/HeapSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dbapp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projekt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projekt/dbapp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -430,19 +467,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.zadania2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.zadania3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.db" />
-      <item index="3" class="java.lang.String" itemvalue="Python.zad 11.1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.HeapSort" />
+      <item index="0" class="java.lang.String" itemvalue="Python.zadania3" />
+      <item index="1" class="java.lang.String" itemvalue="Python.db" />
+      <item index="2" class="java.lang.String" itemvalue="Python.zad 11.1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.HeapSort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dbapp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.HeapSort" />
-        <item index="1" class="java.lang.String" itemvalue="Python.zad 11.1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.db" />
-        <item index="3" class="java.lang.String" itemvalue="Python.zadania3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.zadania2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dbapp" />
+        <item index="1" class="java.lang.String" itemvalue="Python.HeapSort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.zad 11.1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.db" />
+        <item index="4" class="java.lang.String" itemvalue="Python.zadania3" />
       </list>
     </recent_temporary>
   </component>
@@ -460,8 +497,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="0" width="1924" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="0" width="1924" height="1056" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -469,18 +506,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30443975" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30443975" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,6 +539,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zadania11/zad 11.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zadania11/HeapSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zadania11/zad 11.1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -576,6 +629,41 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projekt/dbapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="304" column="39" lean-forward="true" selection-start-line="304" selection-start-column="39" selection-end-line="304" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1485524966372" expanded="true" signature="2181:2445" ph="INSERT INTO wypozyczajacy... " />
+            <marker date="1485524966372" expanded="true" signature="2865:3325" ph="SELECT wypoz... wypozyczajacy" />
+            <marker date="1485524966372" expanded="true" signature="3517:3760" ph="INSERT INTO filmy... " />
+            <marker date="1485524966372" expanded="true" signature="4150:4346" ph="INSERT INTO rejestr_wypozyczen... " />
+            <marker date="1485524966372" expanded="true" signature="4857:4899" ph="DELETE FROM " />
+            <marker date="1485524966372" expanded="true" signature="5668:5711" ph="DELETE FROM " />
+            <marker date="1485524966372" expanded="true" signature="6330:6386" ph="INSERT INTO egzemplarze... " />
+            <marker date="1485524966372" expanded="true" signature="6577:6616" ph="INSERT INTO aktorzy... " />
+            <marker date="1485524966372" expanded="true" signature="6797:6846" ph="INSERT INTO rezyserzy... " />
+            <marker date="1485524966372" expanded="true" signature="7029:7076" ph="INSERT INTO gatunki... " />
+            <marker date="1485524966372" expanded="true" signature="7263:7314" ph="INSERT INTO kategorie... " />
+            <marker date="1485524966372" expanded="true" signature="7499:7545" ph="INSERT INTO nosniki... " />
+            <marker date="1485524966372" expanded="true" signature="7734:7785" ph="INSERT INTO produkcje... " />
+            <marker date="1485524966372" expanded="true" signature="7995:8059" ph="INSERT INTO film_aktorzy... " />
+            <marker date="1485524966372" expanded="true" signature="8264:8453" ph="SELECT aktor... filmy" />
+            <marker date="1485524966372" expanded="true" signature="8659:9233" ph="SELECT filmy... filmy" />
+            <marker date="1485524966372" expanded="true" signature="9479:9663" ph="SELECT egzem... egzemplarze" />
+            <marker date="1485524966372" expanded="true" signature="9886:10058" ph="SELECT egzem... egzemplarze" />
+            <marker date="1485524966372" expanded="true" signature="10239:10278" ph="DELETE FROM " />
+            <marker date="1485524966372" expanded="true" signature="10728:10779" ph="DELETE FROM " />
+            <marker date="1485524966372" expanded="true" signature="11226:11288" ph="DELETE FROM " />
+            <marker date="1485524966372" expanded="true" signature="11755:11799" ph="SELECT * FRO... rejestr_wypozyczen" />
+            <marker date="1485524966372" expanded="true" signature="11997:12042" ph="SELECT * FRO... archiwum_wypozyczen" />
+            <marker date="1485524966372" expanded="true" signature="12230:12319" ph="UPDATE wypoz... " />
+            <marker date="1485524966372" expanded="true" signature="12521:12610" ph="UPDATE wypoz... " />
+          </folding>
         </state>
       </provider>
     </entry>
